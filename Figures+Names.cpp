@@ -48,7 +48,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {
 	TCHAR szText2[] = _T("Ellipse( )");
 	TCHAR szText3[] = _T("Pie( )");
 	TCHAR szText4[] = _T("Chord( )");
-	TCHAR szText5[] = _T("Бурыкин Алексей");
+	TCHAR szText5[] = _T("Грэдинарь Дмитрий");
 	switch (uMsg) {
 	case WM_CREATE:
 		hRedPen = CreatePen(PS_SOLID, 4, RGB(150, 0, 0));
